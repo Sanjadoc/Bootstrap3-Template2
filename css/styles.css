@@ -9,13 +9,11 @@ Notes:	 For my Education
 
 */
 
-@import "../bower_components/bootstrap/dist/css/bootstrap.css" all;
-
 /* --------------------------------------
    Layout
    -------------------------------------- */
-#page-content-wrapper {
-    margin-top: 10px;
+#pageContent {
+    margin-top: 15px;
 }
 
 #imgPostSize {
@@ -28,16 +26,7 @@ Notes:	 For my Education
     background-color: #337AB7;
 }
 
-.panel-primary > .panel-heading {
-    background-color: #337AB7;
-    border-color: #337AB7;
-}
 
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
-
-   
 /* --------------------------------------
    Navbar
    -------------------------------------- */

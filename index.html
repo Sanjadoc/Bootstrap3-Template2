@@ -136,6 +136,175 @@
 				<span class="glyphicon glyphicon-chevron-right"></span>
 			</a>
 		</div> <!-- end carousel-->
+		<div class="container-fluid" id="pageContent">
+			<div class="container">
+				<div class="col-md-8">
+					<h1 class="page-header">
+						Hello World! <small>Small text)</small>
+					</h1>
+					<div id="post">
+						<h2>
+							<a href="#">Post 1</a>
+						</h2>
+						<p class="lead">
+							Author: Author Name
+						</p>
+						<p>
+							<span class="glyphicon glyphicon-time"></span> Date: 2015-12-24 <span class="glyphicon glyphicon-check"></span> Views: 200
+						</p>
+						<hr>
+						<img class="img-responsive" id="imgPostSize" src="http://placehold.it/900x300" alt="Post Img">
+						<hr>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis velit fermentum pellentesque laoreet. Fusce vel fermentum mauris. Etiam ut suscipit nisl. Donec sed tellus ac erat bibendum pharetra. Mauris eros orci, dictum ac placerat porta, auctor quis nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</p>
+						<a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+						<hr>
+						<hr>
+					</div> <!-- end post -->
+					<div id="post">
+						<h2>
+							<a href="#">Post 2</a>
+						</h2>
+						<p class="lead">
+							Author: Author Name
+						</p>
+						<p>
+							<span class="glyphicon glyphicon-time"></span> Date: 2015-12-24 <span class="glyphicon glyphicon-check"></span> Views: 200
+						</p>
+						<hr>
+						<img class="img-responsive" id="imgPostSize" src="http://placehold.it/900x300" alt="Post Img">
+						<hr>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis velit fermentum pellentesque laoreet. Fusce vel fermentum mauris. Etiam ut suscipit nisl. Donec sed tellus ac erat bibendum pharetra. Mauris eros orci, dictum ac placerat porta, auctor quis nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</p>
+						<a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+						<hr>
+						<hr>
+					</div> <!-- end post -->
+
+				</div> <!-- end col-md-8 -->
+				<div class="col-md-4">
+					<div class="well">
+						<h4>Search</h4>
+						<form action="#">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Enter text">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="submit">
+										<span class="glyphicon glyphicon-search"></span>
+									</button>
+								</span>
+							</div> <!-- input-group-->
+						</form> <!-- end form -->
+					</div> <!-- end well -->
+					<div class="well">
+						<h4>Categories</h4>
+						<div class="row">
+							<div class="col-lg-6">
+								<ul class="list-unstyled">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-menu-right"></span> Cat1</a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-menu-right"></span> Cat2</a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-menu-right"></span> Cat3</a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-menu-right"></span> Cat4</a>
+									</li>
+								</ul>
+							</div> <!-- end col-lg-6 -->
+							<div class="col-lg-6">
+								<ul class="list-unstyled">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-menu-right"></span> Cat5</a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-menu-right"></span> Cat6</a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-menu-right"></span> Cat7</a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-menu-right"></span> Cat8</a>
+									</li>
+								</ul>
+							</div> <!-- end col-lg-6 -->
+						</div> <!-- end row -->
+					</div> <!-- end well -->
+					<div class="well">
+						<h4>Banner</h4>
+						<div class="row">
+							<div class="col-lg-12">
+								<img src="http://placehold.it/300x300"  class="img-responsive" alt="QR Code">
+							</div><!-- end col-lg-12 -->
+						</div><!-- end row -->
+					</div><!-- end well -->
+				</div> <!-- end col-md-4 -->
+			</div> <!-- end container -->
+		</div> <!-- end container-fluid -->
+		<footer class="text-center">
+			<div class="footer-above">
+				<div class="container">
+					<div class="row">
+						<div class="footer-col col-md-4">
+							<!-- Новий рік -->
+							<h3>New Year!</h3>
+							<script>
+								var forTime = new Date ();
+								var y70 = (forTime.getTime() / (1000 * 60 * 60 * 24));
+								var ny = new Date(2016,0,1,0,0,0);
+								var ny2013 = (ny.getTime() / (1000 * 60 * 60 * 24));
+								var myDays = ["Sunday","Monday","Tuesday","Wednesday",	"Thursday","Friday","Saturday"];
+								document.write(" <p class='coments' align='center'>" + (Math.round(ny2013) - Math.round(y70)) + " day(s). " +  " <br />" + "It is - " + myDays[ny.getDay()]);
+							</script>
+							<br>
+						</div> <!-- end footer-col -->
+						<div class="footer-col col-md-4">
+							<h3>Social Page</h3>
+							<ul class="list-inline">
+								<li>
+									<a href="#" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+								</li>
+							</ul>
+						</div> <!-- end footer-col -->
+						<div class="footer-col col-md-4">
+							<h3>Some information</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu egestas sapien, eget consequat magna. Duis at maximus felis.</p>
+						</div> <!-- end footer-col -->
+					</div> <!-- end row -->
+				</div> <!-- end container -->
+			</div> <!-- end footer-above -->
+			<div class="footer-below">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2015
+						</div> <!-- end col-lg-12 -->
+					</div> <!-- end row -->
+				</div> <!-- end container -->
+			</div> <!-- end footer-below -->
+
+			<!-- Back-to-top-->
+			<div class="container">
+				<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" data-toggle="tooltip" data-placement="top">
+					<span class="glyphicon glyphicon-chevron-up"></span>
+				</a>
+			</div>
+
+		</footer>
 
 
 		<!-- jQuery -->
