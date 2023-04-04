@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap3-template2",
+  "version": "1.0.0",
+  "description": "My second template Boostrap3",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjadoc/Bootstrap3-Template2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanjadoc/Bootstrap3-Template2/issues"
+  },
+  "homepage": "https://github.com/Sanjadoc/Bootstrap3-Template2#readme",
+  "devDependencies": {
+    "bootstrap3": "^3.3.5"
+  }
+}
